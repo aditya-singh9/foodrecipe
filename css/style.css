@@ -294,4 +294,18 @@ body {
         #statistics .stat-data h3 span {
           font-size: 13px; } }
 
+#testimonials {
+  text-align: center;
+  color: white;
+  padding: 10% 2%;
+}
+        
+.carousel-items {
+  padding: 7% 15%;
+}
+        
+.testimonial-text {
+  padding: 1% 20%;
+}
+        
 /*# sourceMappingURL=style.css.map */
