@@ -4,7 +4,7 @@ body {
 
 #header {
   padding: 0;
-  background-image: url("../images/hero.jpg");
+ background-image: url("../images/pexels-pixabay-326279\ \(1\).jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -19,21 +19,39 @@ body {
   #header .top-header {
     display: flex;
     justify-content: space-between; }
-    #header .top-header .logo {
-      margin: 0; }
-    #header .top-header .main-nav {
-      align-self: center; }
-    #header .top-header .main-nav ul {
-      display: flex;
-      list-style: none;
-      text-transform: uppercase; }
-      #header .top-header .main-nav ul li:nth-child(1) {
-        margin-right: 22px; }
-      #header .top-header .main-nav ul li a {
-        color: #fff;
-        text-decoration: none; }
+    
+.logo {
+      margin: 0; 
+     }
+     
+    nav{
+      background-color: rgba(12, 12, 12, 0.827);
+      padding: 7px;
+      width: 100%;
+      position: fixed;
+    }
+    nav .nav-right{
+      float: right;
+      padding: 4px;
+      margin: 10px;
+    }
+    nav .nav-right a{
+      color: #f7f7f7;
+      text-align: center;
+      font-size: 15px;
+      padding: 10px;
+      margin: 20px;
+      border: #fff solid 2px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    nav .nav-right a:hover{
+      color: black;
+      background-color: white;
+    }
+
   #header .branding {
-    text-align: center; }
+    text-align: left; }
     #header .branding h1 {
       font-size: 25px;
       font-family: "Times New Roman";
@@ -60,6 +78,12 @@ body {
       background-color: rgba(246, 150, 121, 0);
       font-weight: bold;
       text-align: center; }
+
+   #header .branding .btn-cta:hover{
+        background-color: white;
+        color: black;
+      }
+
     #header .branding p {
       font-size: 14px;
       text-transform: uppercase;
