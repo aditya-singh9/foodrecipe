@@ -428,3 +428,18 @@ body {
 }
 
 /*# sourceMappingURL=style.css.map */
+=======
+#footer {
+  background-color: #eff0e6;
+  padding: 3% 15%;
+}
+.footer-text {
+  margin-top: 0.7rem;
+  font-size: 0.7rem;
+}
+.footer-img {
+	margin: 0 0.5rem;
+	color: black;
+}
+        
+/*# sourceMappingURL=style.css.map */
