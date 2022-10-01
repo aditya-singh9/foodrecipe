@@ -294,29 +294,27 @@ body {
   font-family: "lato";
   background-color: #4a3949;
   padding: 25px 0; }
-  #statistics .stat-data {
-    color: #fff;
-    text-align: center;
-    padding: 15px 0; }
-    #statistics .stat-data h3 {
-      margin: 0;
-      font-size: 36px; }
-      #statistics .stat-data h3 span {
-        font-size: 14px;
-        display: block; }
+   .section-count{
+    background-color: rgba(0, 0, 0, 0.857);
+  }
 
 @media screen and (min-width: 768px) {
-  #statistics {
+ #statistics {
     border-bottom: 1px solid grey;
-    background-color: #fff;
+    background-color: rgba(7, 7, 7, 0.923);
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+   }
     #statistics .stat-data {
-      color: #000; }
+      color: rgb(252, 252, 252);
+    padding: 20px;
+    margin: 10px;
+    }
       #statistics .stat-data h3 {
         font-size: 34px; }
         #statistics .stat-data h3 span {
           font-size: 13px; } }
+ 
 
 #testimonials {
   text-align: center;
