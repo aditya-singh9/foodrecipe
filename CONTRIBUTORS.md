@@ -16,7 +16,7 @@ Enter your Name, Github Link & Your E-Mail Address in the given format. Don't tr
 | Name | Github Link | Email ID |
 | ------|----------|---------- |
 | Dhruv Bhatia | <a href="https://github.com/dhruvbhatia1">Dhruv Bhatia</a> | <a href="mailto:example@gmail.com">E-Mail</a> |
-
+| Shrit Shrivastava | <a href="https://github.com/shrit1401">Shrit Shrivastava</a> | <a href="mailto:shrit1401@gmail.com">E-Mail</a> |
 
 
 <br>
