@@ -23,9 +23,9 @@ body {
 }
 
 #header .container {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
-  height: 80%;
+  height: 90%;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -476,3 +476,184 @@ nav .nav-right a:hover {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.contactForm {
+  margin-top: 6%;
+  margin-bottom: 5%;
+  width: 100%;
+  padding: 0.4rem 0 0.8rem 1.7rem;
+}
+
+.formHeading {
+
+  text-align: center;
+  font-size: xxx-large;
+  color: white;
+  font-weight: bold;
+
+}
+
+.formSection {
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+}
+
+.form {
+  width: 60%;
+  background-color: rgb(35, 36, 36, 0.8);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.5rem 0 1.5rem 0;
+}
+
+.image-box {
+  width: 40%;
+  background-image: url("../images/im1-transformed.png");
+  background-size: cover;
+  transform: scaleY(0.9);
+  border-radius: 1.5rem 0 1.5rem 0;
+}
+
+
+.form label {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.form input {
+  border-radius: 0.8rem;
+  font-size: large;
+  padding: auto;
+}
+
+.form .row {
+  margin: 0.4rem 0;
+}
+
+.contactForm textarea {
+  border-radius: 0.8rem;
+  font-size: large;
+  margin: 0.4rem 0;
+
+}
+
+.form-button {
+  width: 100%;
+  background-color: rgb(250, 136, 6);
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  border: none;
+  padding: 0.5rem 0;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 0.5rem;
+
+}
+
+@media only screen and (max-width : 1000px) {
+
+  .form {
+    width: 100%;
+    margin-top: 120px;
+  }
+
+  .form .row {
+    margin: 1.4rem 0;
+  }
+
+  .image-box {
+    display: none;
+  }
+
+  .form label {
+    font-size: xx-large;
+  }
+
+  .form input {
+    font-size: x-large;
+    padding: 1.2rem;
+  }
+
+  .form-button {
+    font-size: xx-large;
+    padding: 1rem 0;
+  }
+}
+
+@media only screen and (max-width : 800px) {
+
+  .form-button {
+    font-size: large;
+    padding: 0.5rem 0;
+  }
+
+  .formHeading {
+    font-size: x-large;
+  }
+
+  .form {
+    width: 100%;
+    margin-top: 50px;
+    padding: 1rem 0.6rem;
+  }
+
+  .image-box {
+    display: none;
+  }
+
+  .form label {
+    font-size: medium;
+  }
+
+  .form input {
+    font-size: medium;
+    padding: 0.5rem 0;
+  }
+
+  .contactForm textarea {
+    font-size: small;
+    margin: 0.1rem 0;
+  }
+  .form .row {
+    margin: 0.4rem 0;
+  }
+
+}
+
+@media only screen and (max-width : 400px) {
+
+  .form{
+    padding: 1rem 0.6rem;
+  }
+
+  .form-button {
+    font-size: small;
+    padding: 0.1rem 0;
+  }
+  .contactForm textarea {
+    font-size: small;
+    margin: 0.1rem 0;
+  }
+
+  .formHeading {
+    font-size: large;
+  }
+
+  .form label {
+    font-size: small;
+  }
+
+  .form input {
+    font-size: small;
+    padding: 0.1rem 0;
+  }
+
+  .form .row {
+    margin: 0.4rem 0;
+  }
+
+}
