@@ -22,6 +22,35 @@ body {
   height: 85vh;
 }
 
+.searchbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 550px;
+}
+
+.searchInp{
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 50px;
+  border-radius: 20px;
+  padding: 0 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  background-color: floralwhite;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.searchbar button{
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  color: floralwhite;
+  font-size: 1.8rem;
+}
+
+
 #header .container {
   width: 100%;
   margin: 0 auto;
@@ -45,10 +74,13 @@ nav {
   padding: 7px;
   width: 100%;
   position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav .nav-right {
-  float: right;
+  /* float: right; */
   padding: 4px;
   margin: 10px;
 }
