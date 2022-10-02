@@ -215,6 +215,7 @@ nav .nav-right a:hover {
   font-family: "Lato";
   padding: 30px 0 0 20px;
   background-color: #f7f7f7;
+  text-align: center;
 }
 
 #mobile-app .content h2 {
@@ -231,10 +232,14 @@ nav .nav-right a:hover {
 #mobile-app .iphone {
   display: none;
 }
+.download-button {
+	margin: 5% 3% 5% 0;
+}
 
 @media screen and (min-width: 768px) {
   #mobile-app {
     padding: 30px 0 0 0;
+    text-align: left;
   }
 
   #mobile-app .container {
