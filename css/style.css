@@ -74,6 +74,7 @@ nav {
   padding: 7px;
   width: 100%;
   position: fixed;
+  z-index: 8346;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -590,6 +591,105 @@ nav .nav-right a:hover {
   border-radius: 0.5rem;
 
 }
+
+
+
+
+
+
+.testimonial-container{
+  display: flex;
+  overflow-x: scroll;
+  padding: 3rem;
+  width: 100%;
+}
+
+
+.card{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height:max-content;
+  width: 500px;
+  min-width: 400px;
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow:-1rem 0 3rem #000;
+  background-color: #daa03f;
+  transition: transform 0.2s ease-in;
+  justify-content: space-between;
+  /* z-index: -386; */
+}
+
+.card:hover{
+  transform-origin: 100% 0;
+  transform: translateY(1.4rem) rotate(5deg);
+}
+
+/* selecting siblings tha come after the hovered card */
+.card:hover~.card{
+  transform: translateX(100px);
+}
+
+.card:not(:first-child){
+  margin-left:-100px;
+}
+
+.testimonial-container::-webkit-scrollbar{
+  width: 10px;
+  height: 10px;
+}
+
+.testimonial-container::-webkit-scrollbar-thumb{
+  background-color: #201c29;
+  border-radius: 15px;
+  box-shadow: inset 2px  2px 2px hsla(0,0%,100%,.25),inset -2px -2px 2px rgba(0,0,0,.25);
+}
+
+.testimonial-container::-webkit-scrollbar-track{
+  background-image:linear-gradient(90deg,#201c29,#201c29 1px,#17141d 0,#17141d);
+}
+
+.customer-info{
+  display: grid;
+  position: relative;
+  grid-template-columns: 75px 1fr;
+  align-items: center;
+  margin: 3rem 0 0;
+  color: floralwhite;
+}
+
+.customer-info img{
+  display: inline;
+  width: 40px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.card-header span{
+  font-weight: 600;
+  font-style: italic;
+  margin-right: 5px;
+  color: floralwhite;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-header> p{
+  padding: 1rem;
+  color: #eff0e6;
+}
+
+header h2:hover{
+  background: linear-gradient(90deg,#ff8a00,#e52e71);
+  text-shadow: none;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+
+
 
 @media only screen and (max-width : 1000px) {
 
