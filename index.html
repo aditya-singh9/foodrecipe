@@ -40,25 +40,31 @@
   <!-- Preloader Div -->
   <div id="preloader"></div>
   <header id="header">
-    <nav class="nav-bar">
-      <div class="logo">
-        <a href="#">
-          <img src="images/logo@2x.png" alt="" width="30%" height="20%">
-        </a>
-      </div>
 
-      <div class="searchbar">
-        <input type="text" class="searchInp" placeholder="Find a recipe..">
-        <button><i class="searchicon fa-solid fa-magnifying-glass"></i></button>
-      </div>
-      
-      
-      <div class="nav-right">
-        <a href="#">Login</a>
-        <a href="#">Sign up</a>
-      </div>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo@2x.png" alt="" width="30%" height="20%"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto ">
+            <li class="navbar-item">
+                <a class="nav-link" href="#">login</a>
+             </li>
+             <li class="navbar-item">
+                <a class="nav-link" href="#">sign up</a>
+             </li>
+             <li class="navbar-item">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+              </form>
+             </li>
+        </ul>
+        </div>
 
+        </nav>
 
     <div class="container">
       <div class="top-header">
@@ -68,7 +74,8 @@
         <h1>Find your Favorite <span>Recipes</span></h1>
         <a href="/ContactUs.html"><button class="btn-cta">Get Started</button></a>
         <p>or send us your own recipe and get <a href="#">rewarded!</a></p>
-      </section> <!-- branding -->
+      </section>
+       <!-- branding -->
     </div><!--  container -->
   </header> <!-- header -->
   <section id="features">
