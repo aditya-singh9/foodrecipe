@@ -22,34 +22,6 @@ body {
   height: 85vh;
 }
 
-.searchbar{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-width: 550px;
-}
-
-.searchInp{
-  width: 100%;
-  border: none;
-  outline: none;
-  height: 50px;
-  border-radius: 20px;
-  padding: 0 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: 500;
-  background-color: floralwhite;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-}
-
-.searchbar button{
-  background-color: transparent;
-  border-radius: 50%;
-  border: none;
-  color: floralwhite;
-  font-size: 1.8rem;
-}
-
 
 #header .container {
   width: 100%;
@@ -65,42 +37,7 @@ body {
   justify-content: space-between;
 }
 
-.logo {
-  margin: 0;
-}
 
-nav {
-  background-color: rgba(12, 12, 12, 0.827);
-  padding: 7px;
-  width: 100%;
-  position: fixed;
-  z-index: 8346;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav .nav-right {
-  /* float: right; */
-  padding: 4px;
-  margin: 10px;
-}
-
-nav .nav-right a {
-  color: #f7f7f7;
-  text-align: center;
-  font-size: 15px;
-  padding: 10px;
-  margin: 20px;
-  border: #fff solid 2px;
-  border-radius: 5px;
-  text-decoration: none;
-}
-
-nav .nav-right a:hover {
-  color: black;
-  background-color: white;
-}
 
 #header .branding {
   text-align: left;
