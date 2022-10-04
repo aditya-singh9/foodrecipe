@@ -731,3 +731,46 @@ header h2:hover{
   }
 
 }
+
+/* Styling the About Section */
+
+.aboutsection{
+  color: #000;
+}
+
+.aboutsection:hover{
+  color: grey;
+}
+.abouttext{
+  background-color: rgb(119, 73, 73);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+  height: 140px;
+  margin: 0px;
+  font-size: 60px;
+  padding: 40px;
+  font-family: "Times New Roman";
+  color: #fff;
+  font-weight: bold;
+  font-style: italic;
+  
+}
+
+.abtHead{
+  font-size: 40px;
+  font-family: "Times New Roman";
+  color: rgb(210, 210, 38);
+  padding: 30px;
+  text-align: center;
+}
+
+.abtcontent{
+  background-image: url("../images/hero.jpg");
+  margin: 0;
+  padding: 2%;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 20px;
+}
