@@ -1,6 +1,12 @@
-body {
+*{
   margin: 0;
   padding: 0;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Preloader */
@@ -123,12 +129,15 @@ body {
 
 #footer {
   font-family: "lato";
-  font-size: 18px;
-  text-align: center;
+  font-size: 3vw;
+  text-align: center;  
+  margin-top: auto;
 }
 
 #footer .container {
   width: 100%;
+  margin-bottom: 0;
+  /* position: fixed; */
 }
 
 @media screen and (min-width: 768px) {
@@ -436,8 +445,11 @@ body {
 }
 
 #footer {
+  display: flex;
+  position: relative;
   background-color: #eff0e6;
   padding: 3% 15%;
+  bottom: 0;
 }
 
 .footer-text {
@@ -743,34 +755,41 @@ header h2:hover{
 }
 .abouttext{
   background-color: rgb(119, 73, 73);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center top;
   text-align: center;
-  height: 140px;
-  margin: 0px;
-  font-size: 60px;
-  padding: 40px;
+  margin: 0vw;
+  font-size: 6vw;
+  padding: 8vh;
   font-family: "Times New Roman";
   color: #fff;
   font-weight: bold;
   font-style: italic;
-  
+}
+
+.abouttext>h1{
+  font-size: 0.6em;
 }
 
 .abtHead{
-  font-size: 40px;
+  font-size: 4vw;
   font-family: "Times New Roman";
   color: rgb(210, 210, 38);
-  padding: 30px;
   text-align: center;
+}
+
+.abtcontent .h2{
+  padding: 4vh;
 }
 
 .abtcontent{
   background-image: url("../images/hero.jpg");
+  background-size: cover;
   margin: 0;
-  padding: 2%;
+  padding: 10vh;
   text-align: center;
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 2vw;
+  flex-grow: 1;
 }
