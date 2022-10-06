@@ -40,15 +40,42 @@
   <!-- Preloader Div -->
   <div id="preloader"></div>
   <header id="header">
-    <nav class="nav-bar">
-      <a href="#">
-        <img src="images/logo@2x.png" alt="" width="5%" height="20%">
-      </a>
-      <div class="nav-right">
-        <a href="#">Login</a>
-        <a href="#">Sign up</a>
-      </div>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo@2x.png" alt="" width="30%" height="20%"></a>
+        
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto ">
+            <li class="navbar-item">
+                <a class="nav-link" href="#">Login</a>
+             </li>
+             <li class="navbar-item">
+                <a class="nav-link" href="#">Sign Up</a>
+             </li>
+             <li class="navbar-item">
+              <div class="toggle-container">
+                <input type="checkbox" class="checkbox" id="checkbox">
+              <label for="checkbox" class="label">
+                <i class="fas fa-moon"></i>
+                <i class='fas fa-sun'></i>
+                <div class='ball'>
+              </label>
+            </div>
+            </li>
+           
+             <li class="navbar-item">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+              </form>
+             </li>
+        </ul>
+        </div>
+
+        </nav>
     <div class="container">
 
 
