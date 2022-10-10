@@ -30,27 +30,10 @@
 	);
 }
 
-/* Dark mode */
-.dark {
-	--bg-color: #111111;
-	--text-color: #ffffff;
-	--header-bg: rgba(255, 255, 255, 0.702);
-	--cuisine-bg: rgba(24, 24, 24, 0.902);
-	--bg-sec-color: rgb(92, 90, 85);
-}
-
 body {
-	margin: 0;
-	padding: 0;
-	background-color: var(--bg-color);
-	color: var(--text-colr);
-}
+  margin: 0;
+  padding: 0; }
 
-body {
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-}
 
 /* Preloader */
 #preloader {
@@ -71,6 +54,7 @@ body {
 	background-position: center top;
 	height: 85vh;
 }
+
 
 .searchbar {
 	display: flex;
@@ -106,9 +90,9 @@ body {
 }
 
 #header .container {
-	width: 100%;
+	width: 90%;
 	margin: 0 auto;
-	height: 90%;
+	height: 80%;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
@@ -118,20 +102,19 @@ body {
 	display: flex;
 	justify-content: space-between;
 }
+ .logo {
+      margin: 0; 
+     }
 
 nav {
-	background-color: rgba(12, 12, 12, 0.827);
-	padding: 7px;
-	width: 100%;
-	position: fixed;
-	z-index: 8346;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	  background-color: rgba(12, 12, 12, 0.827);
+      padding: 7px;
+      width: 100%;
+      position: fixed;
 }
 
 nav .nav-right {
-	display: float;
+	
 	float: right;
 	padding: 4px;
 	margin: 10px;
@@ -158,9 +141,9 @@ nav .nav-right a:hover {
 }
 
 #header .branding h1 {
-	font-size: 25px;
+	font-size: 30px;
 	font-family: "Times New Roman";
-	color: var(--header-bg);
+	color: rgba(255, 255, 255, 0.702);
 	font-weight: bold;
 	font-style: italic;
 }
@@ -170,7 +153,7 @@ nav .nav-right a:hover {
 	display: block;
 	margin: 30px 0px;
 	text-transform: uppercase;
-	font-size: 35px;
+	font-size: 40px;
 	font-family: "Lato";
 	color: #fff;
 	font-weight: bold;
@@ -195,7 +178,7 @@ nav .nav-right a:hover {
 }
 
 #header .branding p {
-	font-size: 14px;
+	font-size: 20px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-family: "Lato";
