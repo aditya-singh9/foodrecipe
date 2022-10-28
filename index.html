@@ -40,6 +40,10 @@
 <body>
   <!-- Preloader Div -->
   <div id="preloader"></div>
+  <button id = "btnScrollToTop">
+    <i class = "material-icons">↑</i>
+  </button>
+
   <header id="header">
     <nav class="nav-bar ">
     
@@ -364,6 +368,19 @@
       $('body').removeClass('loading');
     }
   </script>
+  <script>
+    const btnScrollToTop = document.getElementById("btnScrollToTop");
+    btnScrollToTop.addEventListener("click", function(){
+      window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth"
+      });
+    });
+
+
+  </script>
+
 </body>
 
 <!-- JavaScript to make Bootstrap work  -->
