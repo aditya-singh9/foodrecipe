@@ -53,6 +53,7 @@ body {
   background-repeat: no-repeat;
   background-position: center top;
   height: 85vh;
+  margin-bottom: 8rem;
 }
 
 .searchbar {
