@@ -498,6 +498,10 @@ nav .nav-right a:hover {
 
 .section-count {
   background-color: rgba(0, 0, 0, 0.857);
+  color: white;
+}
+.stat-data {
+  margin-left: 1rem;
 }
 
 @media screen and (min-width: 768px) {
